@@ -1,0 +1,220 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.contenedor{
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header, .dylan-nobel{
+    text-align: center;
+    padding: 20px;
+}
+
+.introduccion{
+    text-align: left;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: rgb(240,93,80);
+}
+
+header p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+header h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #222;
+    margin-top: 10px;
+}
+
+.author, .date {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #555;
+}
+
+article img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+header h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #222;
+    margin-top: 10px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+li > a:hover{
+    color: rgba(0, 0, 25, 0.5);
+}
+
+a{
+    color: rgb(0, 0, 25);
+    text-decoration: none;
+}
+
+p > a{
+    color: rgb(240, 93, 80);
+}
+
+p > a:hover{
+    color: rgba(240, 93, 80, 0.5);
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 25);
+}
+
+/*Citas*/
+figcaption{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+/* Video */
+iframe {
+    display:block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+q{
+    margin-left: 15px;
+}
+
+footer p{
+    color: rgb(255,255,255);
+}
+
+footer{
+    background-color: rgb(0,0,25);
+}
+
+figcaption > small{
+    margin-left: 90px;
+}
+
+/*Parte listado-nobel-literatura.html*/
+
+div.listado-premios > ul li{
+    list-style: square;
+}
+
+div.listado-premios > ul{
+    list-style-type: square;
+}
+
+div.listado-premios a{
+    color: rgb(240, 93, 80);
+}
+
+div.listado-premios a:hover{
+    color: rgba(0, 0, 25, 0.5);
+}
+
+div.pie-pagina > small a{
+    color: rgb(240, 93, 80);
+}
+
+div.listado-premios, div.motivacion-premios {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+div.pie-pagina > small a:hover{
+    color: rgb(255, 255, 255);
+}
+
+main b{
+    color: #666;
+}
+
+div.pie-pagina{
+    width: 40%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+/*Parte motivacion-premios.html*/
+
+div.motivacion-premios{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.motivacion-premios > h2{
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #222;
+}
+
+div.listado-ganadores-por-anyo{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+dt a {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(240,93,80);
+}
+
+span{
+    font-style: italic;
+}
+
+span::before{
+    content: " «";
+}
+
+span::after{
+    content: "»";
+}
+
+dd > p b{
+    font-size: 1.2em;
+}
